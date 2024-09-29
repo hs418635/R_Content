@@ -1,0 +1,6 @@
+group2 <- read.csv(file="database.csv")
+group2[1,1]
+
+?chisq.test
+
+chisq.test(x=group2[1,3:4])
